@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/images/logo.png" width="40" height="40" class="d-inline-block align-top">
+                Predictive Pulse
+            </a>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Image -->
+            <div class="col-md-6">
+                <img src="/static/images/doctor.jpg" class="img-fluid rounded shadow">
+            </div>
+
+            <!-- Right Form -->
+            <div class="col-md-6">
+                <h2 class="text-center mb-4 text-primary">Enter Patient Details</h2>
+                <form action="/predict" method="POST" class="card p-4 shadow-lg">
+                    Gender (0=Male,1=Female): <input type="number" name="Gender" class="form-control mb-3">
+                    Age: <input type="number" name="Age" class="form-control mb-3">
+                    History: <input type="number" name="History" class="form-control mb-3">
+                    Patient ID: <input type="number" name="Patient" class="form-control mb-3">
+                    Take Medication (0=No,1=Yes): <input type="number" name="TakeMedication" class="form-control mb-3">
+                    Severity (1-3): <input type="number" name="Severity" class="form-control mb-3">
+                    Breath Shortness (0=No,1=Yes): <input type="number" name="BreathShortness" class="form-control mb-3">
+                    Visual Changes (0=No,1=Yes): <input type="number" name="VisualChanges" class="form-control mb-3">
+                    Nose Bleeding (0=No,1=Yes): <input type="number" name="NoseBleeding" class="form-control mb-3">
+                    When Diagnosed (Years): <input type="number" name="Whendiagnoused" class="form-control mb-3">
+                    Systolic BP: <input type="number" name="Systolic" class="form-control mb-3">
+                    Diastolic BP: <input type="number" name="Diastolic" class="form-control mb-3">
+                    Controlled Diet (0=No,1=Yes): <input type="number" name="ControlledDiet" class="form-control mb-3">
+                    <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Predictive Pulse | AI-driven Health Insights</p>
+    </footer>
+</body>
+</html>

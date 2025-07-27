@@ -1,0 +1,45 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Hero section */
+.hero {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+/* Prediction card */
+.card {
+    border-radius: 15px;
+}
+
+/* Result text */
+.result-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 40px;
+}
