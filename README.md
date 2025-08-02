@@ -66,6 +66,9 @@ It integrates with wearable devices or health monitoring systems, helping patien
 ![Prediction Result](static/images/prediction.jpg)
 
 
+## 🎥 Project Demonstration  
+
+Watch the full project demonstration here: [Click to Watch](https://drive.google.com/file/d/1ae333fSZ2IR_9_VIWvdh1JtstJxOUWf3/view?usp=drive_link)
 
 
 
