@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load saved model
-model = joblib.load("best_model.pkl")
+model = joblib.load("best_model(1).pkl")
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -29,8 +29,8 @@ def predict():
     ml_prediction = model.predict(final_features)[0]
 
     # Extract Systolic & Diastolic (11th & 12th features)
-    systolic = features[10]
-    diastolic = features[11]
+    systolic = features[8]
+    diastolic = features[9]
 
     # Rule-based BP classification (American Heart Association Guidelines)
     if systolic >= 180 or diastolic >= 120:
