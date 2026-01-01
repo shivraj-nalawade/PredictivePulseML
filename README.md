@@ -1,13 +1,5 @@
 # 🩺 Predictive Pulse: Blood Pressure Analysis using Machine Learning
 
-## 👨‍💻 Team
-- Shivraj Nalawade  
-- Swapnil Lonkar
-- Pratik  Bhosale
-- Avishka Kadam
-*(MIT Academy of Engineering, Alandi, Pune)*
----
-
 ## 📌 Project Overview
 Predictive Pulse is a **machine learning-powered application** designed to **analyze and predict blood pressure trends**.  
 It integrates with wearable devices or health monitoring systems, helping patients and healthcare providers get **real-time insights** to prevent hypertension complications.
